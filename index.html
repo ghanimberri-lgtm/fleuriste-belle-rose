@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleuriste Belle Rose</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Fleuriste Belle Rose</a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1>Bienvenue chez Fleuriste Belle Rose</h1>
+            <p class="hero-subtitle">Nous créons des expériences digitales uniques</p>
+            <a href="#contact" class="btn btn-primary">Contactez-nous</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>À propos</h2>
+            <p>Fleuriste Belle Rose est une entreprise innovante dédiée à votre réussite digitale.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Design</h3>
+                    <p>Des designs modernes et responsifs.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Développement</h3>
+                    <p>Solutions web sur mesure.</p>
+                </div>
+                <div class="service-card">
+                    <h3>SEO</h3>
+                    <p>Optimisation pour les moteurs de recherche.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Section portfolio -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form class="contact-form" onsubmit="handleContact(event)">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Fleuriste Belle Rose. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
